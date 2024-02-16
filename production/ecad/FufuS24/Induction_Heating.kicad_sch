@@ -1591,6 +1591,21 @@
     (uuid ffa63369-faa7-441e-ac40-7d6828947679)
   )
 
+  (text_box "IC1 needs updated footprint\n"
+    (at 100.33 90.17 0) (size 20.32 6.35)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 75757948-60b4-4f97-98e0-beedbf8d0353)
+  )
+  (text_box "Need to update U3 to match new mosfet\n"
+    (at 215.9 106.68 0) (size 11.43 16.51)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 8ac7dc89-c457-415c-8e94-0ea280a64728)
+  )
+
   (global_label "D9" (shape input) (at 84.455 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3b4114cb-5136-4e4c-a04b-dc62241c668f)
