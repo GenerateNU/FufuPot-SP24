@@ -1605,6 +1605,13 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 8ac7dc89-c457-415c-8e94-0ea280a64728)
   )
+  (text_box "Updated C18 to be ~0.766uF\n"
+    (at 199.39 62.23 0) (size 17.78 5.08)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid b7b16b19-016d-4a03-b36f-7539bba91ff2)
+  )
 
   (global_label "D9" (shape input) (at 84.455 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
