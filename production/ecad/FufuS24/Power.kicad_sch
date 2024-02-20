@@ -1572,8 +1572,8 @@
     (property "Datasheet" "~" (at 264.16 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a9db5dde-123c-4d56-b4b0-58c41437928b))
     (pin "1" (uuid b095c632-f9d4-4827-b789-49a1c802ce22))
+    (pin "2" (uuid a9db5dde-123c-4d56-b4b0-58c41437928b))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -1601,8 +1601,8 @@
     (property "Voltage" "16V" (at 99.06 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid cdb775ff-aa69-41b2-9e8f-aa7e221a5ecf))
     (pin "1" (uuid 92b81227-164d-4152-95ad-7fc23f5e72f8))
+    (pin "2" (uuid cdb775ff-aa69-41b2-9e8f-aa7e221a5ecf))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -1808,8 +1808,8 @@
     (property "Voltage" "100V" (at 24.13 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid 3f6a7aab-e3e0-45bf-b29c-b215e36157dc))
     (pin "1" (uuid 76f4311a-d825-4725-9ca0-c51b5951ede4))
+    (pin "2" (uuid 3f6a7aab-e3e0-45bf-b29c-b215e36157dc))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -1988,8 +1988,8 @@
     (property "Voltage" "50V" (at 279.4 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid 3e3b7e89-d95c-486e-bf3c-928582e72222))
     (pin "1" (uuid 09a2f53f-6593-4848-9515-376437b0361c))
+    (pin "2" (uuid 3e3b7e89-d95c-486e-bf3c-928582e72222))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2091,10 +2091,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cf253a65-7be9-443e-a356-a2f0de4890f6))
+    (pin "2" (uuid 143f1051-5164-46c3-945d-ff2fc8eab053))
+    (pin "3" (uuid 553b3f72-347a-46d7-b30c-98cbf3fd127e))
     (pin "4" (uuid 9847d269-86d5-4de6-97e5-78fee44de765))
     (pin "5" (uuid 3cdd2343-3867-45a6-a36a-a90c433adbd1))
-    (pin "3" (uuid 553b3f72-347a-46d7-b30c-98cbf3fd127e))
-    (pin "2" (uuid 143f1051-5164-46c3-945d-ff2fc8eab053))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2165,8 +2165,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdrh127ldnp-120mc/sumida?region=nac" (at 123.19 1090.17 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "2" (uuid 4d2e655c-a23f-4d37-b154-3a911884a481))
     (pin "1" (uuid be486981-2a0a-4b29-b9e5-eb4e5241aab2))
+    (pin "2" (uuid 4d2e655c-a23f-4d37-b154-3a911884a481))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2266,8 +2266,8 @@
     (property "Datasheet" "~" (at 264.16 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c80ac23b-66d6-499a-99af-44e449eb1ea5))
     (pin "1" (uuid 4b4817d8-5184-40fa-9fed-3b42886ad4d5))
+    (pin "2" (uuid c80ac23b-66d6-499a-99af-44e449eb1ea5))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2319,15 +2319,15 @@
     )
     (pin "10" (uuid f2b046c5-267a-471c-a08a-e3fd20e15dc1))
     (pin "3" (uuid 2ceb6549-5873-491a-acc5-6596cfb412ca))
+    (pin "4" (uuid 73fe2dec-2f8a-432b-9d26-964b2de0389d))
+    (pin "1" (uuid fc41981a-142e-4b74-81c3-2585a0ad2923))
+    (pin "11" (uuid 0c2555d4-3e9a-48c4-8367-9746466382cd))
+    (pin "2" (uuid 31e7b404-a29a-418c-9970-e3300f250562))
+    (pin "5" (uuid 18d5f2e8-d127-448a-8a7e-817888f08aac))
+    (pin "6" (uuid 8e087659-b5bf-4235-a3d7-91acb0392ac6))
+    (pin "7" (uuid f2ac82eb-3fc2-449f-a20b-74a1f0bd63b7))
     (pin "8" (uuid f57848ac-40f8-4fbe-8f3c-8a581dd628c0))
     (pin "9" (uuid 693bc041-c1fe-4f84-b81c-2a52f00229b6))
-    (pin "7" (uuid f2ac82eb-3fc2-449f-a20b-74a1f0bd63b7))
-    (pin "6" (uuid 8e087659-b5bf-4235-a3d7-91acb0392ac6))
-    (pin "5" (uuid 18d5f2e8-d127-448a-8a7e-817888f08aac))
-    (pin "1" (uuid fc41981a-142e-4b74-81c3-2585a0ad2923))
-    (pin "2" (uuid 31e7b404-a29a-418c-9970-e3300f250562))
-    (pin "11" (uuid 0c2555d4-3e9a-48c4-8367-9746466382cd))
-    (pin "4" (uuid 73fe2dec-2f8a-432b-9d26-964b2de0389d))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2355,8 +2355,8 @@
     (property "Voltage" "16V" (at 99.06 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid 7904e8b8-9ea8-4a53-8989-088a523bea45))
     (pin "1" (uuid b880256f-6643-42e2-9edd-d90f63be8179))
+    (pin "2" (uuid 7904e8b8-9ea8-4a53-8989-088a523bea45))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2459,8 +2459,8 @@
     (property "Voltage" "100V" (at 22.86 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid 0841f020-0c3e-40fe-a08e-567e50bf3447))
     (pin "1" (uuid d19a32b5-5d43-4dbb-ad82-b91a1c54fca7))
+    (pin "2" (uuid 0841f020-0c3e-40fe-a08e-567e50bf3447))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2564,8 +2564,8 @@
     (property "Voltage" "100V" (at 36.83 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid 2fa0c533-09e4-448e-a0b8-fddef6e41c47))
     (pin "1" (uuid f2cdc702-199b-407d-bdcd-2fcd3b6658a2))
+    (pin "2" (uuid 2fa0c533-09e4-448e-a0b8-fddef6e41c47))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2665,15 +2665,15 @@
     (property "Datasheet" "PLMR38020FDDAR" (at 45.72 83.82 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "9" (uuid 46b2a2d1-ee6f-4c5d-8e91-fd7a3a69c4e8))
-    (pin "7" (uuid cbbdd27d-051b-4fb4-a80c-860a44c85e2e))
-    (pin "8" (uuid bd2e3f6b-4bd2-42a6-b8cf-870ee80f83f5))
     (pin "1" (uuid 0ec568cf-d974-4078-9db7-d34faab5e656))
-    (pin "5" (uuid 207ffa8f-d418-4d7f-a690-c3a6c2dc39b6))
+    (pin "2" (uuid 772591ca-086e-4261-bfd1-7ded27812f34))
+    (pin "3" (uuid 82c900cf-5a87-4288-a924-bdc43b7c148a))
     (pin "4" (uuid 5e628653-feed-43a1-afb6-24f74546db60))
     (pin "6" (uuid 489d4c71-1e5d-4971-b76b-aae918094fbc))
-    (pin "3" (uuid 82c900cf-5a87-4288-a924-bdc43b7c148a))
-    (pin "2" (uuid 772591ca-086e-4261-bfd1-7ded27812f34))
+    (pin "7" (uuid cbbdd27d-051b-4fb4-a80c-860a44c85e2e))
+    (pin "9" (uuid 46b2a2d1-ee6f-4c5d-8e91-fd7a3a69c4e8))
+    (pin "5" (uuid 207ffa8f-d418-4d7f-a690-c3a6c2dc39b6))
+    (pin "8" (uuid bd2e3f6b-4bd2-42a6-b8cf-870ee80f83f5))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2752,8 +2752,8 @@
     (property "Voltage" "100V" (at 189.23 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid 3ab1e826-f43c-4d12-80dd-b76c5b7d9b15))
     (pin "1" (uuid a60dca4e-73fb-4dcd-bf72-f19fc66c4d5b))
+    (pin "2" (uuid 3ab1e826-f43c-4d12-80dd-b76c5b7d9b15))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2803,8 +2803,8 @@
     (property "Datasheet" "~" (at 127 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid efac7811-f41b-4385-9d61-7ddb031aae84))
     (pin "1" (uuid d209d56a-70ff-4bac-ad12-f74ff3457f68))
+    (pin "2" (uuid efac7811-f41b-4385-9d61-7ddb031aae84))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -2832,8 +2832,8 @@
     (property "Voltage" "100V" (at 201.93 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid 19538e25-dc90-4e71-a517-ab926e01b776))
     (pin "1" (uuid ab24dd93-b2fa-4757-90f2-6704ac58d211))
+    (pin "2" (uuid 19538e25-dc90-4e71-a517-ab926e01b776))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -3008,15 +3008,15 @@
     (property "Datasheet" "PLMR38020FDDAR" (at 45.72 22.86 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "9" (uuid dab9aa55-d9a3-4a3b-8a93-9ee52aab493a))
-    (pin "7" (uuid 975bd594-491a-4ab5-a00d-79de5591a0e7))
-    (pin "8" (uuid 828514d0-d0c0-49dc-ba3d-2544c9361610))
     (pin "1" (uuid 7b23ab01-7706-420d-8b78-6630ef77c310))
-    (pin "5" (uuid ce09dde5-21fa-4426-823e-b40d8aad8661))
+    (pin "2" (uuid fc1b35a0-7a9f-476c-84da-2bed470809cd))
+    (pin "3" (uuid 367b2512-9876-487c-a2be-dab2601d4a39))
     (pin "4" (uuid 807094b9-812a-4339-aa42-4751f9d908cc))
     (pin "6" (uuid e892d279-8385-43b2-8124-bcf9e82b6ece))
-    (pin "3" (uuid 367b2512-9876-487c-a2be-dab2601d4a39))
-    (pin "2" (uuid fc1b35a0-7a9f-476c-84da-2bed470809cd))
+    (pin "7" (uuid 975bd594-491a-4ab5-a00d-79de5591a0e7))
+    (pin "9" (uuid dab9aa55-d9a3-4a3b-8a93-9ee52aab493a))
+    (pin "5" (uuid ce09dde5-21fa-4426-823e-b40d8aad8661))
+    (pin "8" (uuid 828514d0-d0c0-49dc-ba3d-2544c9361610))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -3041,8 +3041,8 @@
     (property "Datasheet" "~" (at 127 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid eb4180a3-3f06-43e6-91ff-b66b5520c04d))
     (pin "1" (uuid 0ad5a560-6207-4442-8ae5-aeab91f344b0))
+    (pin "2" (uuid eb4180a3-3f06-43e6-91ff-b66b5520c04d))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -3070,8 +3070,8 @@
     (property "Voltage" "100V" (at 38.1 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid 05a6cd59-b594-4711-8e79-a7b38be77d81))
     (pin "1" (uuid 9e47d087-3cf7-4c25-b502-77a895e900e8))
+    (pin "2" (uuid 05a6cd59-b594-4711-8e79-a7b38be77d81))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
@@ -3099,8 +3099,8 @@
     (property "Voltage" "16V" (at 213.36 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "2" (uuid 22622fa1-41d2-4e0f-99fc-90b4af3e4f6a))
     (pin "1" (uuid 0fb717f0-3018-424f-afca-06d8e13b92f6))
+    (pin "2" (uuid 22622fa1-41d2-4e0f-99fc-90b4af3e4f6a))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
