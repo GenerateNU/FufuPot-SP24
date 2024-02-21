@@ -736,7 +736,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 32.385 104.775 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0be58739-3771-44f1-bb64-57c4d0a72696)
-    (property "Reference" "J2" (at 24.13 107.95 0)
+    (property "Reference" "J8" (at 24.13 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 24.13 105.41 0)
@@ -752,9 +752,6 @@
     (pin "2" (uuid eaec09d2-04a7-4983-9334-b538ca62090a))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/2f899246-8d98-4f9c-b4c6-8497c11eb038"
-          (reference "J2") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "J8") (unit 1)
         )
@@ -765,7 +762,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 111.76 49.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bd29edd-b55b-4317-a626-c1702fe85c0b)
-    (property "Reference" "TP3" (at 117.475 48.26 90)
+    (property "Reference" "TP7" (at 117.475 48.26 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 117.475 50.8 90)
@@ -780,9 +777,6 @@
     (pin "1" (uuid c4162c8d-c389-4aa6-b870-8e904ab705da))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
-          (reference "TP3") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "TP7") (unit 1)
         )
@@ -793,7 +787,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 32.385 60.325 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3690838c-4555-4de2-8a3f-cb33445cd83f)
-    (property "Reference" "J2" (at 32.385 68.58 0)
+    (property "Reference" "J5" (at 32.385 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 32.385 66.04 0)
@@ -809,9 +803,6 @@
     (pin "2" (uuid bb1b8a75-c2eb-496f-a128-7b64e1c30023))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/2f899246-8d98-4f9c-b4c6-8497c11eb038"
-          (reference "J2") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "J5") (unit 1)
         )
@@ -822,7 +813,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 32.385 151.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 457059d2-e5dc-48af-8649-6b9c17f95922)
-    (property "Reference" "J2" (at 24.13 154.305 0)
+    (property "Reference" "J12" (at 24.13 154.305 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 24.13 151.765 0)
@@ -838,9 +829,6 @@
     (pin "2" (uuid 751ca73c-fb63-4220-a267-8b9cc71105a2))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/2f899246-8d98-4f9c-b4c6-8497c11eb038"
-          (reference "J2") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "J12") (unit 1)
         )
@@ -878,7 +866,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 32.385 132.715 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5878b770-5292-4aca-8da4-72b1bc805a9b)
-    (property "Reference" "J2" (at 24.765 135.89 0)
+    (property "Reference" "J11" (at 24.765 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 24.765 133.35 0)
@@ -894,9 +882,6 @@
     (pin "2" (uuid e9e52ee2-2a31-426f-bb57-34b71367164a))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/2f899246-8d98-4f9c-b4c6-8497c11eb038"
-          (reference "J2") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "J11") (unit 1)
         )
@@ -984,7 +969,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 104.775 43.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c66df58-7de1-4c0d-99a6-e4e98dc986e8)
-    (property "Reference" "TP3" (at 106.68 39.243 0)
+    (property "Reference" "TP6" (at 106.68 39.243 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 106.68 41.783 0)
@@ -999,9 +984,6 @@
     (pin "1" (uuid 7756a058-76f3-4ac0-a2ed-11e363e0e65a))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
-          (reference "TP3") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "TP6") (unit 1)
         )
@@ -1062,7 +1044,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 32.385 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b27b8f82-bbea-4254-a696-80e7ca9be131)
-    (property "Reference" "J2" (at 24.765 113.665 0)
+    (property "Reference" "J9" (at 24.765 113.665 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 24.765 111.125 0)
@@ -1078,9 +1060,6 @@
     (pin "2" (uuid c737a83e-8791-4a11-8f85-c815329e84dd))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/2f899246-8d98-4f9c-b4c6-8497c11eb038"
-          (reference "J2") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "J9") (unit 1)
         )
@@ -1091,7 +1070,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 104.775 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3496606-5908-4324-9efc-965a9ef335d8)
-    (property "Reference" "TP3" (at 107.315 57.912 0)
+    (property "Reference" "TP8" (at 107.315 57.912 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint" (at 107.315 60.452 0)
@@ -1106,9 +1085,6 @@
     (pin "1" (uuid 454bac34-e5c9-481d-afc2-f297002bc5ad))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
-          (reference "TP3") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "TP8") (unit 1)
         )
@@ -1119,7 +1095,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 32.385 127 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbfbb5f0-551b-498b-886c-a5b5781d8c7f)
-    (property "Reference" "J2" (at 24.13 130.175 0)
+    (property "Reference" "J10" (at 24.13 130.175 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 24.13 127.635 0)
@@ -1135,9 +1111,6 @@
     (pin "2" (uuid 18439b59-99e6-494f-9cfd-496be9160e78))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/2f899246-8d98-4f9c-b4c6-8497c11eb038"
-          (reference "J2") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "J10") (unit 1)
         )
@@ -1148,7 +1121,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 32.385 38.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e662ba84-6c8e-414b-8dcb-5f240ba37457)
-    (property "Reference" "J2" (at 32.385 46.355 0)
+    (property "Reference" "J6" (at 32.385 46.355 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 32.385 43.815 0)
@@ -1164,9 +1137,6 @@
     (pin "2" (uuid 40fecab5-b2a9-452a-b6f8-2777493e8300))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/2f899246-8d98-4f9c-b4c6-8497c11eb038"
-          (reference "J2") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
           (reference "J6") (unit 1)
         )
