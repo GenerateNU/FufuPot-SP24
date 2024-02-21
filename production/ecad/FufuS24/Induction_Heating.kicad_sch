@@ -2047,8 +2047,8 @@
     (property "Datasheet" "~" (at 66.675 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f2796475-c0af-4e4c-83ea-6be7b9052e50))
     (pin "1" (uuid c4d47ebd-258b-4e86-9928-b7c8eb6eadd5))
+    (pin "2" (uuid f2796475-c0af-4e4c-83ea-6be7b9052e50))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
@@ -2379,14 +2379,14 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8561.pdf" (at 53.34 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "6" (uuid 6842e9bf-fbd8-49e6-a818-453acf13aa0d))
-    (pin "4" (uuid 2d37a638-fa54-4728-ae84-efb4f50999fb))
-    (pin "3" (uuid bf7b21f9-0ad5-4a6d-bfcc-a4ccbfcad4b2))
-    (pin "2" (uuid 031c2ff4-b81b-43ec-ab32-cac8629d4b06))
     (pin "1" (uuid 942c952f-ac7c-4b81-a9fe-6ff1edf0c369))
+    (pin "2" (uuid 031c2ff4-b81b-43ec-ab32-cac8629d4b06))
+    (pin "3" (uuid bf7b21f9-0ad5-4a6d-bfcc-a4ccbfcad4b2))
+    (pin "4" (uuid 2d37a638-fa54-4728-ae84-efb4f50999fb))
+    (pin "5" (uuid 8aed3f20-59b9-4cea-b858-fb9e10b86575))
+    (pin "6" (uuid 6842e9bf-fbd8-49e6-a818-453acf13aa0d))
     (pin "7" (uuid b75cae36-4395-4497-9b93-dc5655a74643))
     (pin "8" (uuid 55ae64d6-5ff1-423c-95a6-4686f2337997))
-    (pin "5" (uuid 8aed3f20-59b9-4cea-b858-fb9e10b86575))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
