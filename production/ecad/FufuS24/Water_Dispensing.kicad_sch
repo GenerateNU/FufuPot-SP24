@@ -296,7 +296,7 @@
   (symbol (lib_id "power:GNDREF") (at 275.59 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34ae56f9-1b5e-40ae-bf75-4cf1a105e808)
-    (property "Reference" "#PWR041" (at 275.59 49.53 0)
+    (property "Reference" "#PWR056" (at 275.59 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 275.59 48.26 0)
@@ -311,9 +311,6 @@
     (pin "1" (uuid 825cdd72-35b8-4d75-a890-0f79d1fbf38a))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
-          (reference "#PWR041") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
           (reference "#PWR056") (unit 1)
         )
@@ -349,7 +346,7 @@
   (symbol (lib_id "power:GNDREF") (at 44.45 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b63779c-66fe-4933-8056-b0899a645f47)
-    (property "Reference" "#PWR041" (at 44.45 46.99 0)
+    (property "Reference" "#PWR057" (at 44.45 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 44.45 45.72 0)
@@ -364,9 +361,6 @@
     (pin "1" (uuid a1e9faea-42a1-4d63-9fd4-0e4ee538e8d7))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
-          (reference "#PWR041") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
           (reference "#PWR057") (unit 1)
         )
@@ -377,7 +371,7 @@
   (symbol (lib_id "power:GNDREF") (at 195.58 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b9eae48-d1ff-4f70-9a80-4547d20d28d3)
-    (property "Reference" "#PWR041" (at 195.58 50.8 0)
+    (property "Reference" "#PWR054" (at 195.58 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 195.58 49.53 0)
@@ -392,9 +386,6 @@
     (pin "1" (uuid a84d2cf3-bb7b-4b60-98a5-1b5f8419913e))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
-          (reference "#PWR041") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
           (reference "#PWR054") (unit 1)
         )
