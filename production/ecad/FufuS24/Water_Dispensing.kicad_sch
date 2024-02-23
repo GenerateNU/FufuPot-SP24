@@ -473,6 +473,14 @@
     (uuid f7875b79-e13d-47ca-bd16-0ae974109eac)
   )
 
+  (text_box "Clarify Mode pin operation. Potentially reduce GPIO use"
+    (at 194.31 119.38 0) (size 21.59 12.7)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid c499fa2a-5820-44d8-9bce-014598e7ac9f)
+  )
+
   (text "DIGITAL" (at 275.59 66.04 0)
     (effects (font (size 1.27 1.27) bold (color 238 64 255 1)) (justify left bottom))
     (uuid 07ea8b53-74ae-4531-8be0-3c841e3ef7af)

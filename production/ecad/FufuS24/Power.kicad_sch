@@ -1433,6 +1433,14 @@
     (uuid ffc232e2-efe1-4d17-bbd3-01389b4b2740)
   )
 
+  (text_box "Add LEDs\nAdd connectors"
+    (at 213.36 152.4 0) (size 26.67 7.62)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid a881d947-32db-4cdd-a21a-9a1d4f1e25a8)
+  )
+
   (symbol (lib_id "CL21A106KAYNNNG:CL21A106KAYNNNG") (at 151.13 43.18 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0400dcac-3941-4d0f-a6a0-9d3c441d29a2)

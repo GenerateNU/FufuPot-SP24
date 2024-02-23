@@ -566,6 +566,14 @@
     (uuid e78a4ad7-402d-4221-bfc2-2d8ecc822b3e)
   )
 
+  (text_box "Rename GPIOs"
+    (at 140.97 134.62 0) (size 27.94 15.24)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 147e10b7-3d84-4847-a0d9-0418ddcb92a1)
+  )
+
   (text "uC_DVI_D1-" (at 156.718 81.788 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 13fc6e9b-8697-40ad-8c98-074579a2371a)

@@ -429,6 +429,14 @@
     (uuid ec38cfd0-7ed0-463b-aab2-d757a3062f7b)
   )
 
+  (text_box "Figure out GPIO use, add LEDs to FLT/STALL"
+    (at 82.55 107.95 0) (size 20.32 11.43)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 0fa8d0d6-8920-46ed-82e0-21ab2a799ddf)
+  )
+
   (text "- Anything in this color describes functionality" (at 185.42 60.325 0)
     (effects (font (size 1.27 1.27) bold (color 0 169 62 1)) (justify left bottom))
     (uuid 02ab0475-6d02-4ecf-a4f2-4d79926a163b)
