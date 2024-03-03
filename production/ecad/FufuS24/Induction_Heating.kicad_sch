@@ -1758,7 +1758,7 @@
     (property "Value" "MLX90614ESF-AAA-000-TU" (at 220.98 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:IR_Sensor" (at 220.98 95.25 0)
+    (property "Footprint" "MLX90614ESF-AAA-000-TU:TO254P942H425-4" (at 220.98 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 220.98 95.25 0)
