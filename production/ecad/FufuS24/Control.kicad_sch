@@ -2408,7 +2408,7 @@
     (property "Value" "Conn_01x02" (at 20.955 90.805 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 20.955 85.09 0)
+    (property "Footprint" "footprints:CON_5025840270_MOL" (at 20.955 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 20.955 85.09 0)
