@@ -2132,7 +2132,7 @@
     (property "Value" "TPD2E001DRLR" (at 115.6716 63.4746 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (at 128.3716 68.8848 0)
+    (property "Footprint" "footprints:QFN-FCMOD_365R6FRDN_TEX" (at 128.3716 68.8848 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "TPD2E001DRLR" (at 128.3716 68.8848 0)
