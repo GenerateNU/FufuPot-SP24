@@ -2190,7 +2190,15 @@
     (property "Value" "150080GS75000" (at 237.49 152.4 90)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
+<<<<<<< HEAD
     (property "Footprint" "footprints:LED_GS75000_WRE" (at 236.22 143.51 0)
+=======
+<<<<<<< HEAD
+    (property "Footprint" "LED_GS75000_WRE" (at 236.22 143.51 0)
+=======
+    (property "Footprint" "footprints:LED_GS75000_WRE" (at 236.22 143.51 0)
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "150080GS75000" (at 233.68 142.24 0)
@@ -2450,7 +2458,15 @@
     (property "Value" "150080GS75000" (at 267.97 152.4 90)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
+<<<<<<< HEAD
     (property "Footprint" "footprints:LED_GS75000_WRE" (at 266.7 143.51 0)
+=======
+<<<<<<< HEAD
+    (property "Footprint" "LED_GS75000_WRE" (at 266.7 143.51 0)
+=======
+    (property "Footprint" "footprints:LED_GS75000_WRE" (at 266.7 143.51 0)
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "150080GS75000" (at 264.16 142.24 0)
@@ -2553,7 +2569,15 @@
     (property "Value" "150080GS75000" (at 283.21 152.4 90)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
+<<<<<<< HEAD
     (property "Footprint" "footprints:LED_GS75000_WRE" (at 281.94 143.51 0)
+=======
+<<<<<<< HEAD
+    (property "Footprint" "LED_GS75000_WRE" (at 281.94 143.51 0)
+=======
+    (property "Footprint" "footprints:LED_GS75000_WRE" (at 281.94 143.51 0)
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "150080GS75000" (at 279.4 142.24 0)
@@ -2680,7 +2704,15 @@
     (property "Value" "150080GS75000" (at 252.73 152.4 90)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
+<<<<<<< HEAD
     (property "Footprint" "footprints:LED_GS75000_WRE" (at 251.46 143.51 0)
+=======
+<<<<<<< HEAD
+    (property "Footprint" "LED_GS75000_WRE" (at 251.46 143.51 0)
+=======
+    (property "Footprint" "footprints:LED_GS75000_WRE" (at 251.46 143.51 0)
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "150080GS75000" (at 248.92 142.24 0)
@@ -2991,7 +3023,15 @@
     (property "Value" "12uH" (at 116.84 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
+<<<<<<< HEAD
     (property "Footprint" "footprints:0805Inductor" (at 123.19 190.17 0)
+=======
+<<<<<<< HEAD
+    (property "Footprint" "INDPM120120X800N" (at 123.19 190.17 0)
+=======
+    (property "Footprint" "footprints:0805Inductor" (at 123.19 190.17 0)
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://products.sumida.com/products/pdf/CDRH127LD.pdf" (at 123.19 290.17 0)
@@ -3515,7 +3555,15 @@
     (property "Value" "150080GS75000" (at 223.52 152.4 90)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
+<<<<<<< HEAD
     (property "Footprint" "footprints:LED_GS75000_WRE" (at 222.25 143.51 0)
+=======
+<<<<<<< HEAD
+    (property "Footprint" "LED_GS75000_WRE" (at 222.25 143.51 0)
+=======
+    (property "Footprint" "footprints:LED_GS75000_WRE" (at 222.25 143.51 0)
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "150080GS75000" (at 219.71 142.24 0)

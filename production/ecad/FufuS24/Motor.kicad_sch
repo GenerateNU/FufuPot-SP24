@@ -1134,6 +1134,12 @@
     )
   )
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  (symbol (lib_id "Device:R_US") (at 67.31 92.71 270) (unit 1)
+=======
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 32.385 151.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 457059d2-e5dc-48af-8649-6b9c17f95922)
@@ -1188,6 +1194,10 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 104.775 43.815 0) (unit 1)
+<<<<<<< HEAD
+=======
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 339a542f-2dd5-4b95-834d-6d70ed3c6b02)
     (property "Reference" "R30" (at 67.31 86.36 90)
@@ -1398,7 +1408,15 @@
     (property "Value" "Pololu_DRV8711_Motor_Driver" (at 121.285 53.975 0)
       (effects (font (size 1.524 1.524)))
     )
+<<<<<<< HEAD
     (property "Footprint" "footprints:POLOLU_36v4" (at 119.38 78.74 0)
+=======
+<<<<<<< HEAD
+    (property "Footprint" "" (at 99.06 53.34 0)
+=======
+    (property "Footprint" "footprints:POLOLU_36v4" (at 119.38 78.74 0)
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "" (at 99.06 53.34 0)
@@ -1495,7 +1513,15 @@
     (property "Value" "691137710004" (at 83.185 57.785 0)
       (effects (font (size 1.27 1.27)))
     )
+<<<<<<< HEAD
     (property "Footprint" "691137710004:WURTH_691137710004" (at 103.505 92.71 0)
+=======
+<<<<<<< HEAD
+    (property "Footprint" "691137710004:WURTH_691137710004" (at 83.185 67.31 0)
+=======
+    (property "Footprint" "footprints:PWR_4POS" (at 103.505 92.71 0)
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 83.185 67.31 0)
@@ -1613,6 +1639,13 @@
 
   (symbol (lib_id "power:GNDREF") (at 100.965 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    (uuid e434ee7f-807f-463c-8cb6-9588806e3167)
+    (property "Reference" "#PWR058" (at 100.965 119.38 0)
+=======
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
     (uuid cbfbb5f0-551b-498b-886c-a5b5781d8c7f)
     (property "Reference" "J10" (at 24.13 130.175 0)
       (effects (font (size 1.27 1.27)))
@@ -1621,6 +1654,10 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "footprints:CON_5025840270_MOL" (at 32.385 127 0)
+<<<<<<< HEAD
+=======
+>>>>>>> dcd24bf40ef329a5e9c1d5f3e5ec1a05c3beec39
+>>>>>>> cc122826ed33a64249282af3c27472728c46c12f
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 100.965 116.84 0)
