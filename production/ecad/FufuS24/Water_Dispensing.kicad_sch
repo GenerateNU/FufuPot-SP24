@@ -644,7 +644,7 @@
     (property "Value" "DMG2302UK-7" (at 67.31 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 69.215 31.75 0)
+    (property "Footprint" "footprints:DMG2302UK-7_Footprint" (at 69.215 31.75 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" (at 67.31 36.83 0)

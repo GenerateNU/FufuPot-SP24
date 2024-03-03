@@ -1590,7 +1590,7 @@
     (property "Value" "TPD4E1U06DBVR" (at 204.5462 88.9508 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (at 221.107 79.629 0)
+    (property "Footprint" "footprints:RP2040_Footprint" (at 221.107 79.629 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "TPD4E1U06DBVR" (at 221.107 79.629 0)
