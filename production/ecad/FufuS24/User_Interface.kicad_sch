@@ -1487,14 +1487,14 @@
     (property "Value" "5.6" (at 236.0168 71.7804 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:RESC2012X60N" (at 231.5718 72.5424 90)
+    (property "Footprint" "" (at 231.5718 72.5424 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.5718 70.7644 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e97bca2a-f50a-479e-b87e-fdcc461d578c))
     (pin "1" (uuid f00545d1-89e7-4f4f-981d-64804c370bce))
+    (pin "2" (uuid e97bca2a-f50a-479e-b87e-fdcc461d578c))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1538,14 +1538,14 @@
     (property "Value" "100nF" (at 134.8486 74.5744 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CAPC2012X94N" (at 130.8608 68.8848 0)
+    (property "Footprint" "" (at 130.8608 68.8848 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 131.826 72.6948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2311fc2d-c35d-4957-a79d-0669f9a4e1b8))
     (pin "1" (uuid 1790bf31-b690-42a5-896e-3c54f410b569))
+    (pin "2" (uuid 2311fc2d-c35d-4957-a79d-0669f9a4e1b8))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1564,14 +1564,14 @@
     (property "Value" "100nF" (at 201.4728 71.7804 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CAPC2012X94N" (at 201.2696 69.7992 0)
+    (property "Footprint" "" (at 201.2696 69.7992 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 197.4596 70.7644 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 29636039-0c4f-4c5f-b41b-b5e997de4cb4))
     (pin "1" (uuid 9cd57445-fe7d-4fbb-8ea9-4ec25cba9580))
+    (pin "2" (uuid 29636039-0c4f-4c5f-b41b-b5e997de4cb4))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1620,14 +1620,14 @@
     (property "Value" "100nF" (at 214.9856 59.0804 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CAPC2012X94N" (at 214.7316 57.0992 0)
+    (property "Footprint" "" (at 214.7316 57.0992 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.9216 58.0644 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 460da2af-721a-4448-8177-34d54bb15d19))
     (pin "1" (uuid e3477a1d-4fef-4688-8c90-00bdc809c4c0))
+    (pin "2" (uuid 460da2af-721a-4448-8177-34d54bb15d19))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1646,14 +1646,14 @@
     (property "Value" "5.6" (at 220.6244 59.0804 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:RESC2012X60N" (at 225.0694 59.8424 90)
+    (property "Footprint" "" (at 225.0694 59.8424 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 225.0694 58.0644 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c18354af-fb4a-47b0-98f2-3f17191bbf3f))
     (pin "1" (uuid ac61ed94-8991-4777-aa0f-697e22d76f72))
+    (pin "2" (uuid c18354af-fb4a-47b0-98f2-3f17191bbf3f))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1702,14 +1702,14 @@
     (property "Value" "5.6" (at 220.6244 64.1604 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:RESC2012X60N" (at 225.0694 64.9224 90)
+    (property "Footprint" "" (at 225.0694 64.9224 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 225.0694 63.1444 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ae3d911d-7a33-4365-943c-c03a4cf16d40))
     (pin "1" (uuid 3552b9f1-e5b8-4ff2-bbaa-c7e7aa6e3367))
+    (pin "2" (uuid ae3d911d-7a33-4365-943c-c03a4cf16d40))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1728,14 +1728,14 @@
     (property "Value" "100nF" (at 201.5236 56.5404 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CAPC2012X94N" (at 201.2696 54.5592 0)
+    (property "Footprint" "" (at 201.2696 54.5592 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 197.4596 55.5244 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e3025918-4716-40a7-9fac-adc6fcc78e4f))
     (pin "1" (uuid 181ac706-022b-4259-ba4a-efad337eac4d))
+    (pin "2" (uuid e3025918-4716-40a7-9fac-adc6fcc78e4f))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1804,14 +1804,14 @@
     (property "Value" "5.6" (at 235.8898 56.5404 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:RESC2012X60N" (at 231.4448 57.3024 90)
+    (property "Footprint" "" (at 231.4448 57.3024 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.4448 55.5244 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 517f87e2-4e21-453b-a97d-6040f5bcf9fc))
     (pin "1" (uuid ffd1b0fb-88fe-4a1d-baaa-4f3a62494ccc))
+    (pin "2" (uuid 517f87e2-4e21-453b-a97d-6040f5bcf9fc))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1855,14 +1855,14 @@
     (property "Value" "100nF" (at 215.0364 69.2404 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CAPC2012X94N" (at 214.8332 67.2592 0)
+    (property "Footprint" "" (at 214.8332 67.2592 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 211.0232 68.2244 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid bda67f6b-a9d8-433f-8de8-44a4d61c260a))
     (pin "1" (uuid 0733d0fc-9d93-4705-a83b-87a66d894f75))
+    (pin "2" (uuid bda67f6b-a9d8-433f-8de8-44a4d61c260a))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1881,14 +1881,14 @@
     (property "Value" "100nF" (at 215.0364 64.1604 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CAPC2012X94N" (at 214.7824 62.1792 0)
+    (property "Footprint" "" (at 214.7824 62.1792 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.9724 63.1444 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 00937f20-748c-41aa-9f41-863252388231))
     (pin "1" (uuid fd005345-03b8-49d4-9f29-cca8d82414e2))
+    (pin "2" (uuid 00937f20-748c-41aa-9f41-863252388231))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1951,14 +1951,14 @@
     (property "Value" "5.6" (at 236.1438 61.6204 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:RESC2012X60N" (at 231.6988 62.3824 90)
+    (property "Footprint" "" (at 231.6988 62.3824 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.6988 60.6044 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e06c6666-af79-4d76-a95d-081ad5906cdc))
     (pin "1" (uuid 109fa5c9-dea2-465c-b49a-35da47ea1ed1))
+    (pin "2" (uuid e06c6666-af79-4d76-a95d-081ad5906cdc))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -1977,14 +1977,14 @@
     (property "Value" "5.6" (at 220.6244 74.3204 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:RESC2012X60N" (at 225.0694 75.0824 90)
+    (property "Footprint" "" (at 225.0694 75.0824 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 225.0694 73.3044 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid dfcb1362-7452-4b00-b076-5eb166279e5e))
     (pin "1" (uuid 3d39adcd-a0ed-4aae-9152-4d7d9288dd34))
+    (pin "2" (uuid dfcb1362-7452-4b00-b076-5eb166279e5e))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -2028,14 +2028,14 @@
     (property "Value" "100nF" (at 215.0872 74.3204 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CAPC2012X94N" (at 214.884 72.3392 0)
+    (property "Footprint" "" (at 214.884 72.3392 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 211.074 73.3044 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f45e2dc1-303d-41c8-a483-b700a96aa15e))
     (pin "1" (uuid 196bfdd9-4e76-4db2-87f3-eab09784bc70))
+    (pin "2" (uuid f45e2dc1-303d-41c8-a483-b700a96aa15e))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -2054,14 +2054,14 @@
     (property "Value" "5.6" (at 236.0168 66.7004 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:RESC2012X60N" (at 231.5718 67.4624 90)
+    (property "Footprint" "" (at 231.5718 67.4624 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.5718 65.6844 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 34ee7c6c-e529-4c34-8fc0-d8a82a4c2d91))
     (pin "1" (uuid cf8c1827-9fb3-4481-a2ea-20358370458f))
+    (pin "2" (uuid 34ee7c6c-e529-4c34-8fc0-d8a82a4c2d91))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -2080,14 +2080,14 @@
     (property "Value" "5.6" (at 220.6244 69.2404 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:RESC2012X60N" (at 225.0694 70.0024 90)
+    (property "Footprint" "" (at 225.0694 70.0024 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 225.0694 68.2244 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 8f3be178-8c74-4f7b-9a18-be81cd090332))
     (pin "1" (uuid d8f54aab-e01d-42d6-aed4-c517ef5f67b4))
+    (pin "2" (uuid 8f3be178-8c74-4f7b-9a18-be81cd090332))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -2138,10 +2138,10 @@
     (property "Datasheet" "TPD2E001DRLR" (at 128.3716 68.8848 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "3" (uuid c6c63a9a-6d2c-4025-83aa-08cebba9777a))
-    (pin "4" (uuid d6345434-e856-472f-be5e-e62170690fca))
     (pin "1" (uuid 2bdf6ebc-4bcd-49cd-859d-ae0f9a0d14b0))
     (pin "2" (uuid 4353698a-68ed-4a91-ba91-e2a4455b533e))
+    (pin "3" (uuid c6c63a9a-6d2c-4025-83aa-08cebba9777a))
+    (pin "4" (uuid d6345434-e856-472f-be5e-e62170690fca))
     (pin "5" (uuid 31472bf0-f95e-46f5-ab0b-970e18edf531))
     (instances
       (project "FufuS24"
@@ -2212,14 +2212,14 @@
     (property "Value" "100nF" (at 201.5236 61.6204 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CAPC2012X94N" (at 201.2696 59.6392 0)
+    (property "Footprint" "" (at 201.2696 59.6392 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 197.4596 60.6044 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 146442ca-18cb-46db-94e3-135104853601))
     (pin "1" (uuid 9cb1742b-958f-4b3e-8ae4-2125a880e736))
+    (pin "2" (uuid 146442ca-18cb-46db-94e3-135104853601))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
@@ -2238,14 +2238,14 @@
     (property "Value" "100nF" (at 201.5236 66.7512 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:CAPC2012X94N" (at 201.2696 64.7192 0)
+    (property "Footprint" "" (at 201.2696 64.7192 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 197.4596 65.6844 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 882a27a9-8e7d-4da6-9d65-2e615b6d0326))
     (pin "1" (uuid 535fc65f-679b-4ee4-a447-fc295294606e))
+    (pin "2" (uuid 882a27a9-8e7d-4da6-9d65-2e615b6d0326))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/876a98ff-842e-4695-a72d-b69ed233d34f"
