@@ -2236,7 +2236,7 @@
     (property "Value" "ECWF6754HL" (at 144.78 102.87 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "ECWF6754HL:CAPRR2500W80L2800T1330H1990" (at 140.97 102.87 0)
+    (property "Footprint" "footprints:CAPC2012X94N" (at 140.97 102.87 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 140.97 102.87 0)

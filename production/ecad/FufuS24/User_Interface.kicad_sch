@@ -1407,7 +1407,7 @@
     (property "Value" "TPD4E1U06DBVR" (at 208.788 49.2252 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (at 225.3488 39.9034 0)
+    (property "Footprint" "footprints:TPD4E1U06DBVR_footprint" (at 225.3488 39.9034 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "TPD4E1U06DBVR" (at 225.3488 39.9034 0)
