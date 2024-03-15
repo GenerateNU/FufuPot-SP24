@@ -3258,7 +3258,7 @@
     (property "Footprint" "footprints:DMG2302UK-7_Footprint" (at 240.665 140.97 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" (at 235.585 139.065 0)
+    (property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMG2302UK.pdf" (at 235.585 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 05987245-5c83-41f5-870c-d9787b9459cf))
