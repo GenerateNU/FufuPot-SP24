@@ -4014,8 +4014,8 @@
     (property "Datasheet" "691137710002" (at 225.425 80.645 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "2" (uuid 40fc97c2-50fc-4061-8841-0bcdbdec63df))
     (pin "1" (uuid 6241e0be-4bc1-44c8-8816-a7ceff8dcbce))
+    (pin "2" (uuid 40fc97c2-50fc-4061-8841-0bcdbdec63df))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"

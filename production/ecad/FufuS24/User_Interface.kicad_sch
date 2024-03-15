@@ -943,15 +943,15 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8d78531d-e911-49e8-889c-1dd3a041ed72))
+    (pin "10" (uuid e74b0a41-9999-495d-a3c0-9c6699d41d2e))
     (pin "11" (uuid 7b9cc7b7-526c-43dc-89f3-fca1c8d188cb))
     (pin "2" (uuid b554a9f5-0c4c-4263-8dbc-792ab9cc2a7e))
-    (pin "6" (uuid 190e824f-2988-48e8-b47d-5f0953f0a290))
-    (pin "10" (uuid e74b0a41-9999-495d-a3c0-9c6699d41d2e))
     (pin "3" (uuid 8a8c1677-14eb-4dda-83e2-7fdf15f86286))
     (pin "4" (uuid ef34cb10-a129-4a34-a6e8-ea76f6e38dcc))
-    (pin "8" (uuid 2c75a3fd-4dc2-4770-8649-1c65b11da35b))
     (pin "5" (uuid 00902ea9-c3af-49cd-8721-83e2d1882a03))
+    (pin "6" (uuid 190e824f-2988-48e8-b47d-5f0953f0a290))
     (pin "7" (uuid 8c91df24-fa13-4b15-b916-d82bf66beadc))
+    (pin "8" (uuid 2c75a3fd-4dc2-4770-8649-1c65b11da35b))
     (pin "9" (uuid edf80531-917e-4eb4-9f4b-df27a841b6e7))
     (instances
       (project "FufuS24"
