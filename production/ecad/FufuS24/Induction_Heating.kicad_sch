@@ -2187,10 +2187,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "I2C0_SDA" (shape input) (at 267.335 44.45 0) (fields_autoplaced)
+  (global_label "SDA_EXT" (shape input) (at 267.335 44.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5e83f8cb-9863-4087-ab5c-bfc7e502960b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 279.1497 44.45 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 278.182 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2208,10 +2208,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "I2C0_SCL" (shape input) (at 267.335 48.26 0) (fields_autoplaced)
+  (global_label "SCL_EXT" (shape input) (at 267.335 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c3dfd399-b44c-4f4c-aaa3-50997ec9c4a8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 279.0892 48.26 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 278.1215 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2297,7 +2297,7 @@
   (symbol (lib_id "Device:R_US") (at 228.6 149.225 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39e62ef8-4c9f-43fe-9c98-ad1210358dfe)
-    (property "Reference" "R20" (at 228.6 143.51 90)
+    (property "Reference" "R23" (at 228.6 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "500" (at 228.6 146.05 90)
@@ -2313,9 +2313,6 @@
     (pin "2" (uuid 9cedbd91-49d4-4f9f-a3e6-64bdde103220))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
-          (reference "R20") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
           (reference "R23") (unit 1)
         )
@@ -2326,7 +2323,7 @@
   (symbol (lib_id "5014:5014") (at 254 116.205 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a0d8474-f89e-48bf-b692-2759ec2e6d17)
-    (property "Reference" "TP14" (at 255.905 114.935 90)
+    (property "Reference" "TP15" (at 255.905 114.935 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5014" (at 255.905 117.475 90)
@@ -2383,9 +2380,6 @@
     (pin "TP" (uuid 4972e3d6-9b78-4654-86fa-c33938735f92))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
-          (reference "TP14") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
           (reference "TP15") (unit 1)
         )
@@ -2396,7 +2390,7 @@
   (symbol (lib_id "power:GNDREF") (at 238.125 158.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40d8781a-4b2d-4583-b58b-d08c9322d1ec)
-    (property "Reference" "#PWR057" (at 238.125 164.465 0)
+    (property "Reference" "#PWR066" (at 238.125 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 238.125 163.195 0)
@@ -2411,9 +2405,6 @@
     (pin "1" (uuid f1fedc51-a63c-4bde-9879-f03512ed8e71))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
-          (reference "#PWR057") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
           (reference "#PWR066") (unit 1)
         )
@@ -2424,7 +2415,7 @@
   (symbol (lib_id "Device:R_US") (at 245.745 126.365 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44c75ab2-c6d8-45b2-b5a9-2cd384c9a8f6)
-    (property "Reference" "R30" (at 247.65 125.095 0)
+    (property "Reference" "R22" (at 247.65 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 247.65 127.635 0)
@@ -2440,9 +2431,6 @@
     (pin "2" (uuid 06f69840-a114-4ea5-9113-0d6027dd3d20))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
-          (reference "R30") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
           (reference "R22") (unit 1)
         )
@@ -2689,7 +2677,7 @@
   (symbol (lib_id "5014:5014") (at 203.835 144.145 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78b004df-62ad-4231-875b-936e897a5f51)
-    (property "Reference" "TP13" (at 206.375 142.875 90)
+    (property "Reference" "TP16" (at 206.375 142.875 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5014" (at 206.375 145.415 90)
@@ -2746,9 +2734,6 @@
     (pin "TP" (uuid 2e73c481-eadd-4c75-ae39-aa24292971bd))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
-          (reference "TP13") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
           (reference "TP16") (unit 1)
         )
@@ -2784,7 +2769,7 @@
   (symbol (lib_id "Device:R_US") (at 213.36 139.065 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d7fc47b-50de-4756-8968-0a4fbbb02ada)
-    (property "Reference" "R20" (at 213.36 132.715 90)
+    (property "Reference" "R21" (at 213.36 132.715 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 213.36 135.255 90)
@@ -2800,9 +2785,6 @@
     (pin "2" (uuid 488d0569-ccda-4267-8a56-7801d2f1ab0f))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
-          (reference "R20") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
           (reference "R21") (unit 1)
         )
@@ -2957,7 +2939,7 @@
   (symbol (lib_id "power:+12V") (at 264.795 122.555 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a46616ce-ff41-4a6a-ab7d-2c3a8a502396)
-    (property "Reference" "#PWR065" (at 260.985 122.555 0)
+    (property "Reference" "#PWR064" (at 260.985 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 268.605 122.555 90)
@@ -2972,9 +2954,6 @@
     (pin "1" (uuid c0a97687-ff28-4436-8cb9-cb7d82c24b3e))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
-          (reference "#PWR065") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
           (reference "#PWR064") (unit 1)
         )
@@ -2985,7 +2964,7 @@
   (symbol (lib_id "2024-03-03_19-32-21:691137710002") (at 217.17 125.095 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac4143c0-cc55-42dd-9c20-652b66bee0ac)
-    (property "Reference" "J12" (at 208.28 114.935 0)
+    (property "Reference" "J3" (at 208.28 114.935 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "691137710002" (at 208.28 117.475 0)
@@ -3001,9 +2980,6 @@
     (pin "2" (uuid 70a70f56-fbdb-44c3-a468-441db995e0cb))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
-          (reference "J12") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
           (reference "J3") (unit 1)
         )
@@ -3249,7 +3225,7 @@
   (symbol (lib_id "Transistor_FET:DMG2302U") (at 235.585 139.065 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5fb8461-1210-4960-ac07-7250fdd6b02c)
-    (property "Reference" "Q1" (at 241.3 137.795 0)
+    (property "Reference" "Q2" (at 241.3 137.795 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMG2302UK-7" (at 241.3 140.335 0)
@@ -3266,9 +3242,6 @@
     (pin "3" (uuid 76da0bd3-869e-4780-927c-963ccc0af701))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
-          (reference "Q1") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
           (reference "Q2") (unit 1)
         )
