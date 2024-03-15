@@ -1382,10 +1382,10 @@
     (property "MANUFACTURER" "WURTH ELEKTRONIK" (at 173.99 73.66 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
+    (pin "1" (uuid 060bbc28-cc43-40c8-bd33-7d5e539e94bb))
+    (pin "2" (uuid 24dd6f64-ef6e-440f-963f-0ee20b26274b))
     (pin "3" (uuid 7937643f-79e2-4331-b509-54a71126e027))
     (pin "4" (uuid 3419bf58-7ae9-4d35-adcc-786f17d3d8e8))
-    (pin "2" (uuid 24dd6f64-ef6e-440f-963f-0ee20b26274b))
-    (pin "1" (uuid 060bbc28-cc43-40c8-bd33-7d5e539e94bb))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
@@ -1671,8 +1671,8 @@
     (property "Datasheet" "691137710002" (at 31.115 76.2 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "2" (uuid 56e76914-1de6-4529-9a23-3ec5c61036df))
     (pin "1" (uuid ba7a1a73-e9ea-418e-b260-03e68aa7fc04))
+    (pin "2" (uuid 56e76914-1de6-4529-9a23-3ec5c61036df))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/4167d6e6-5417-44cf-9a0c-baf8fab8b739"
@@ -1724,10 +1724,10 @@
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 104c62bd-9cdb-4d7d-867d-08e89079a7d6))
+    (pin "2" (uuid 822e1f40-254c-45d6-a018-5376340bbbf5))
     (pin "3" (uuid e51e86e6-bec4-4091-aa92-9f8485596d07))
     (pin "4" (uuid 28c24d6c-8bf5-483e-9da9-90f8a0151e62))
     (pin "5" (uuid 8079f9e1-5e54-4b2c-9d78-e526aa0b303b))
-    (pin "2" (uuid 822e1f40-254c-45d6-a018-5376340bbbf5))
     (pin "6" (uuid a4648450-d00b-47d1-93ca-343a4e6671e6))
     (instances
       (project "FufuS24"
