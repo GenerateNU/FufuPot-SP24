@@ -1,6 +1,3 @@
 [submodule "production/src/ui/pico-sdk"]
 	path = production/src/ui/pico-sdk
 	url = https://github.com/raspberrypi/pico-sdk.git
-[submodule "production/src/ui/PicoDVI"]
-	path = production/src/ui/PicoDVI
-	url = https://github.com/adafruit/PicoDVI.git
