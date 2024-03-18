@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.44999999999999996
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -53,16 +53,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.2032,
-          "via_gap": 0.2032,
-          "width": 0.203708
-        },
-        {
-          "gap": 0.2032,
-          "via_gap": 0.2032,
-          "width": 0.267208
         }
       ],
       "drc_exclusions": [],
