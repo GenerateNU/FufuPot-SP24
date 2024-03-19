@@ -2329,6 +2329,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "/Users/leo_chen/Documents/FufuPot/FufuPot-SP24/production/ecad/components/cad/1050170001.stp"
+      (offset (xyz 0 -1 1.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "footprints:RESC2012X60N" (layer "F.Cu")
