@@ -67,7 +67,6 @@
 #define N_BERRIES 65
 #define LED_PIN 21
 
-// test
 
 struct dvi_inst dvi0;
 
