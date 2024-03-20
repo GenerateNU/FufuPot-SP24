@@ -3717,7 +3717,7 @@
   (symbol (lib_id "5014:5014") (at 41.91 122.555 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a493ef3-a633-484d-a2d1-494d0f9d27db)
-    (property "Reference" "TP17" (at 41.91 116.84 0)
+    (property "Reference" "TP22" (at 41.91 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5014" (at 41.91 119.38 0)
@@ -3774,9 +3774,6 @@
     (pin "TP" (uuid f2039e48-217a-435c-9f3b-f2021c6e31ae))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
-          (reference "TP17") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
           (reference "TP22") (unit 1)
         )
@@ -4035,7 +4032,7 @@
   (symbol (lib_id "5014:5014") (at 43.18 57.785 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a98cece7-1600-466d-84df-e7fbfe62b741)
-    (property "Reference" "TP17" (at 43.18 51.435 0)
+    (property "Reference" "TP21" (at 43.18 51.435 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5014" (at 43.18 53.975 0)
@@ -4092,9 +4089,6 @@
     (pin "TP" (uuid a461f52f-9e26-4788-b50b-b935d996c2e2))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
-          (reference "TP17") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
           (reference "TP21") (unit 1)
         )
@@ -4229,7 +4223,7 @@
   (symbol (lib_id "5014:5014") (at 41.91 182.245 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b177d771-8b66-4a6d-9136-65b11d537144)
-    (property "Reference" "TP17" (at 41.91 176.53 0)
+    (property "Reference" "TP23" (at 41.91 176.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5014" (at 41.91 179.07 0)
@@ -4286,9 +4280,6 @@
     (pin "TP" (uuid b4bc0b5d-e1f8-4380-8453-5acaaaf872f8))
     (instances
       (project "FufuS24"
-        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/57fb5dcd-e779-40d3-8741-57c7eee1ca58"
-          (reference "TP17") (unit 1)
-        )
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/1f62379a-1fa8-439b-93cd-7c736b3b1bba"
           (reference "TP23") (unit 1)
         )
