@@ -759,12 +759,12 @@
     (property "Datasheet" "" (at 142.875 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid 081fe999-3fb3-44d2-9f6f-9c5a4164ea89))
-    (pin "3" (uuid 86672c96-13e4-4eb1-8470-f16aa93c4349))
     (pin "1" (uuid 3aac227a-bb41-4118-9cb5-e7e0bbf74f7f))
-    (pin "6" (uuid f0cf2548-4c66-4162-a645-8eb387667b64))
-    (pin "5" (uuid 43fe9e52-4f5d-4f8b-8450-d867187ea949))
     (pin "2" (uuid ed9f6597-2099-403b-8a37-a2490b45ea0d))
+    (pin "3" (uuid 86672c96-13e4-4eb1-8470-f16aa93c4349))
+    (pin "4" (uuid 081fe999-3fb3-44d2-9f6f-9c5a4164ea89))
+    (pin "5" (uuid 43fe9e52-4f5d-4f8b-8450-d867187ea949))
+    (pin "6" (uuid f0cf2548-4c66-4162-a645-8eb387667b64))
     (instances
       (project "FufuS24"
         (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac/67add6e2-1584-4801-9b59-67cf5082dcca"
