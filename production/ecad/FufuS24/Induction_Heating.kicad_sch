@@ -2683,7 +2683,7 @@
     (property "Value" "10uH" (at 133.985 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:INDPM120120X800N" (at 35.255 78.74 0)
+    (property "Footprint" "footprints:INDPM176169X700N" (at 35.255 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP1770CC.pdf" (at -64.745 78.74 0)
