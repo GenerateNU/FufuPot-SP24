@@ -17,7 +17,7 @@
 #define ir_addr 0x36
 
 //hardware registers (none yet):
-
+//test
 
 void check_temp(uint8_t upper_byte){
 
