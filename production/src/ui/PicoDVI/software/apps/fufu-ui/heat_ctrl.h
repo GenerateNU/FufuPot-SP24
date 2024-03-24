@@ -7,12 +7,17 @@
 #include "pico/binary_info.h"
 
 #define i2c_bus 0
-#define ir_addr 0x36
 #define pwm_pin 31
 #define led_pin 29
 #define d_cycle 0.5
 #define pwm_duty 0.5
 #define pwm_freq 10000
+
+//i2c bus address
+#define ir_addr 0x36
+
+//hardware registers (none yet):
+
 
 void check_temp(uint8_t upper_byte){
 
