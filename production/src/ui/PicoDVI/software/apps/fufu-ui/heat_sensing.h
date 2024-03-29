@@ -20,7 +20,6 @@ float convert_temp(uint8_t upper_byte, uint8_t lower_byte) {
     } else {
         temperature = (((float) upper_byte * 16) + ((float) lower_byte / 16));
     }
-
     return temperature;
 }
 
@@ -28,6 +27,7 @@ void check_temp(uint8_t upper_byte){
 
     // Check temp limits and raise alerts accordingly 
     // temperature limits subject to change
+    
     if ((upper_byte & 0x40) == 0x40) { //TACTUAL > TUPPER
         printf("Temperature is above the upper temperature limit.\n");
     }
@@ -37,15 +37,6 @@ void check_temp(uint8_t upper_byte){
     if ((upper_byte & 0x80) == 0x80) { //TACTUAL > TCRIT
         printf("Temperature is above the critical temperature limit.\n");    
         // power off?
-        exit();
+        abort();
     }
-    if ()
-}
-
-void heat_on(uint8_t slice){
-    
-}
-
-void heaf_off(){
-
 }
