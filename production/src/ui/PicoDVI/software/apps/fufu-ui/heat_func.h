@@ -61,7 +61,7 @@ uint16_t check_temp(float temp){
         return level;
     }
     if (temp == 50) { //TACTUAL < TLOWER
-    
+
         // raise frequency to increase temp
 
         uint pwm_freq = 11000;
@@ -69,6 +69,7 @@ uint16_t check_temp(float temp){
         return level;
     }
     if (temp == 150) { //TACTUAL > TCRIT
+    
         // set pwm duty to 0%
 
         uint pwm_duty = 0 ;
