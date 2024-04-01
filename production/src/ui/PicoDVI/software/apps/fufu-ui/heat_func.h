@@ -34,8 +34,8 @@ float convert_temp(uint8_t sda_pin, uint8_t scl_pin) {
     float temperature;
     uint8_t buf[2];
     i2c_read_blocking(i2c_bus, ir_addr, buf, 2, false);
-    upper_byte = buf[0];
-    lower_byte = buf[1];
+    uint16_t upper_byte = buf[0];
+    uint16_t lower_byte = buf[1];
 
     if ((upper_byte & 0x10) == 0x10) {
         upper_byte = upper_byte & 0x0F;
