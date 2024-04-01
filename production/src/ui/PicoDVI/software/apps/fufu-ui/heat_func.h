@@ -46,13 +46,14 @@ float convert_temp(uint8_t sda_pin, uint8_t scl_pin) {
     return temperature;
 }
 
- uint16_t check_temp(float temp){
+uint16_t check_temp(float temp){
 
     // Check temp limits and raise alerts accordingly 
     // temperature limits subject to change
     // Return result
     
     if (temp <= 100) { //TACTUAL > TUPPER
+
         // lower frequency to reduce temp
 
         uint pwm_freq = 9000;
@@ -60,6 +61,7 @@ float convert_temp(uint8_t sda_pin, uint8_t scl_pin) {
         return level;
     }
     if (temp == 50) { //TACTUAL < TLOWER
+    
         // raise frequency to increase temp
 
         uint pwm_freq = 11000;
