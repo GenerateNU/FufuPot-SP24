@@ -52,7 +52,7 @@ uint16_t check_temp(float temp){
     // temperature limits subject to change
     // Return result
     
-    if (temp <= 100) { //TACTUAL > TUPPER
+    if (temp >= 100) { //TACTUAL > TUPPER
 
         // lower frequency to reduce temp
 
@@ -60,7 +60,7 @@ uint16_t check_temp(float temp){
         level = ((1.25 * pow(10, 8)) / ((uint) pwm_freq) - 1) * ((float) pwm_duty);
         return level;
     }
-    if (temp == 50) { //TACTUAL < TLOWER
+    if (temp <= 50) { //TACTUAL < TLOWER
 
         // raise frequency to increase temp
 
@@ -69,7 +69,7 @@ uint16_t check_temp(float temp){
         return level;
     }
     if (temp == 150) { //TACTUAL > TCRIT
-    
+
         // set pwm duty to 0%
 
         uint pwm_duty = 0 ;
@@ -86,12 +86,14 @@ void heat_on(bool enabled){
 #else
     i2c_init(i2c0, 100 * 1000);
     gpio_init(pwm_pin);
-    gpio_pull_up(sda_pin);
-    gpio_pull_up(scl_pin);
+    gpio_init(sda_pin);
+    gpio_init(scl_pin);
 
     //pio_set_dir(PWM_PIN, GPIO_OUT);
     gpio_set_function(pwm_pin, GPIO_FUNC_PWM);
-
+    gpio_pull_up(sda_pin);
+    gpio_pull_up(scl_pin);
+    
     uint16_t level = ((1.25 * pow(10, 8)) / ((uint) pwm_freq) - 1) * ((float) pwm_duty);
 
     // if one wanted to obtain PWM generator slice and channel values, it's as shown:
