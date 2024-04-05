@@ -1,13 +1,17 @@
 add_executable(fufu-ui
-	main.c
+	main.cpp
 )
 
+#[[
 # Specify path to own LVGL config header
 set(LV_CONF_PATH
     ${CMAKE_CURRENT_SOURCE_DIR}/src/lv_conf.h
     CACHE STRING "" FORCE)
+]]
+
 
 # Fetch LVGL from GitHub
+include(FetchContent)
 FetchContent_Declare(lvgl GIT_REPOSITORY https://github.com/lvgl/lvgl.git)
 FetchContent_MakeAvailable(lvgl)
 
@@ -23,7 +27,7 @@ target_link_libraries(fufu-ui
 	hardware_pwm
 	libdvi
 	libsprite
-	lvgl::lvgl
+	#lvgl::lvgl
 )
 
 # create map/bin/hex file etc.
