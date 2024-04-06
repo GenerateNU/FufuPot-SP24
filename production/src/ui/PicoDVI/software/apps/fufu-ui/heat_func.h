@@ -78,6 +78,21 @@ uint16_t check_temp(float temp){
     }
 }
 
+uint32_t pwm_set_freq_duty(uint slice_num,
+       uint chan,uint32_t f, int d){
+  uint32_t clock = 1200000;
+  uint32_t divider16 = clock / f / 4096 + 
+                           (clock % (f * 4096) != 0);
+  if (divider16 / 16 == 0)
+  divider16 = 16;
+  uint32_t wrap = clock * 16 / divider16 / f - 1;
+  pwm_set_clkdiv_int_frac(slice_num, divider16/16,
+                                     divider16 & 0xF);
+  pwm_set_wrap(slice_num, wrap);
+  pwm_set_chan_level(slice_num, chan, wrap * d / 100);
+  return wrap;
+}
+
 void heat_on(bool enabled){
 #if !defined(i2c_default) || !defined(PICO_DEFAULT_I2C_SDA_PIN) || !defined(PICO_DEFAULT_I2C_SCL_PIN)
     #warning i2c / bmp280_i2c example requires a board with I2C pins
@@ -94,17 +109,18 @@ void heat_on(bool enabled){
     gpio_pull_up(sda_pin);
     gpio_pull_up(scl_pin);
     
-    uint16_t level = ((1.25 * pow(10, 8)) / ((uint) pwm_freq) - 1) * ((float) pwm_duty);
+    gpio_init(20);
+    gpio_set_function(20, GPIO_FUNC_PWM);
 
-    // if one wanted to obtain PWM generator slice and channel values, it's as shown:
-    //static uint   pwm_gpio_to_slice_num(uint gpio)
-    //static uint   pwm_gpio_to_channel(uint gpio)
-    //slice = pwm_gpio_to_slice_num (PWM_PIN); 
-    //channel = pwm_gpio_to_channel (PWM_PIN);
-    
-    pwm_set_gpio_level(uint8_t pwm_pin, level);
-	slice = pwm_gpio_to_slice_num(pwm_pin);
-    pwm_set_enabled(slice, enabled);
+	uint slice = pwm_gpio_to_slice_num(20);
+    uint chan = pwm_gpio_to_channel(20);
+
+    // slice, channel, frequency, duty %
+    pwm_set_freq_duty(slice, chan, 25000, 50);
+
+    // Set the PWM running
+    pwm_set_enabled(slice, true);
+
     while (enabled){
         float temp = convert_temp();
         check_temp(temp);
