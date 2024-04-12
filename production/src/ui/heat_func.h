@@ -5,6 +5,7 @@
 #include "hardware/i2c.h"
 #include "hardware/pwm.h"
 #include "pico/binary_info.h"
+#include "pin_definitions.h"
 
 #define i2c_bus 0
 #define sda_pin 28

@@ -6,6 +6,9 @@
 #include "hardware/pwm.h"
 #include "pico/binary_info.h"
 #include "heat_ctrl.h"
+#include "pin_definitions.h"
+#include "heat_func.h"
+#include "water_pump.h"
 
 void soft_cook(){
 
