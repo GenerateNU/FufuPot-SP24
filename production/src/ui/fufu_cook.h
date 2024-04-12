@@ -10,14 +10,8 @@
 #include "heat_func.h"
 #include "water_pump.h"
 
-void soft_cook(){
+void soft_cook();
 
-}
+void reg_cook();
 
-void reg_cook(){
-    
-}
-
-void firm_cook(){
-    
-}
+void firm_cook();
