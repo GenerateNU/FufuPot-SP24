@@ -3,8 +3,16 @@
 #include "FS.h"
 #include <SPI.h>
 #include <lvgl.h>
-#include <TFT_eSPI.h>
 #include "demos/lv_demos.h"
+
+#include <TFT_eSPI.h>
+#include "dvi.h"
+#include "dvi_serialiser.h"
+
+#include "fufu_cook.h"
+#include "heat_func.h"
+#include "water_pump.h"
+// #include "pin_definitions.h"
 
 #define CALIBRATION_FILE "/calibrationData"
 
@@ -85,7 +93,6 @@ void setup()
     Serial.println( LVGL_Arduino );
     Serial.println( "I am LVGL_Arduino" );
 
-    lv_init();
 
 #if LV_USE_LOG != 0
     lv_log_register_print_cb( my_print ); /* register print function for debugging */
@@ -134,6 +141,8 @@ void setup()
     /*Set the touchscreen calibration data,
      the actual data for your display can be acquired using
      the Generic -> Touch_calibrate example from the TFT_eSPI library*/
+     
+    lv_init();
 
     lv_disp_draw_buf_init( &draw_buf, buf, NULL, screenWidth * screenHeight / 10 );
 
