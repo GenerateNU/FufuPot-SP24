@@ -74,4 +74,9 @@
     (solder_mask_margin 0.102) (tstamp 34abaee2-6ed6-4a4e-9720-2a6912c7db2e))
   (pad "5" smd roundrect (at 2.28 4.14 90) (size 2.83 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
     (solder_mask_margin 0.102) (tstamp f139f434-aa8e-4745-bd24-baca48662943))
+  (model "${KIPRJMOD}/../components/cad/KVU0005A.stp"
+    (offset (xyz 0 1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
