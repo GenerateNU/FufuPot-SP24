@@ -8,4 +8,10 @@
 
 #include "pin_definitions.h"
 
+//returns true if the sensor detecting full water level is reporting high, 
+//aka true if water is past the full point
 bool is_water_full();
+
+//returns true if the sensor detecting near empty water level is reporting high, 
+//aka true if water past the empty point
+bool is_water_not_empty();
