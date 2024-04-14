@@ -128,4 +128,5 @@ void heat_on(bool enabled){
         check_temp(temp);
         sleep_ms(100);
     }
+#endif
 }

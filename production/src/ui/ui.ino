@@ -1,27 +1,30 @@
-/*Using LVGL with Arduino requires some extra steps:
- *Be sure to read the docs here: https://docs.lvgl.io/master/get-started/platforms/arduino.html  */
 #include <FS.h>
 #include <SPI.h>
 #include <lvgl.h>
-#include <demos/lv_demos.h>
 #include <TFT_eSPI.h>
-#include <dvi.h>
-#include <dvi_serialiser.h>
+#include <PicoDVI.h>
+#include "libdvi/dvi_serialiser.h"
+#include "libdvi/dvi.h"
+#include "demos/lv_demos.h"
+#include "hardware/vreg.h"
 
 #include "fufu_cook.h"
 #include "heat_func.h"
 #include "water_pump.h"
 #include "pin_definitions.h"
 
-#define CALIBRATION_FILE "/calibrationData"
+#define VREG_VSEL VREG_VOLTAGE_1_30
+#define DVI_TIMING dvi_timing_800x480p_60hz
 
-static const uint16_t screenWidth  = 480;
-static const uint16_t screenHeight = 320;
+static const uint16_t screenWidth  = 800;
+static const uint16_t screenHeight = 480;
 
 static lv_disp_draw_buf_t draw_buf;
 static lv_color_t buf[ screenWidth * screenHeight / 10 ];
 
-DVIGFX1 display(DVI_RES_800x480p60, true, adafruit_feather_dvi_cfg);
+DVIGFX1 display(DVI_RES_800x480p60, true, pico_sock_cfg);
+struct dvi_inst dvi0;
+
 
 void my_disp_flush( lv_disp_drv_t *disp_drv, const lv_area_t *area, lv_color_t *color_p )
 {
@@ -61,4 +64,11 @@ void my_touchpad_read( lv_indev_drv_t * indev_drv, lv_indev_data_t * data )
         Serial.print( "Data y " );
         Serial.println( touchY );
     }
+}
+
+void setup(){
+  vreg_set_voltage(VREG_VSEL);
+  delay(10);
+  // Run system at TMDS bit clock
+  set_sys_clock_khz(DVI_TIMING.bit_clk_khz, true);
 }
