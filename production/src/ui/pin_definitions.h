@@ -1,3 +1,5 @@
+#include "pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h"
+
 #define gpio_0 0
 #define motor_en 1
 #define piezo_en 2
@@ -28,3 +30,5 @@
 #define gpio_27 27
 #define sda_ext 28
 #define scl_ext 29
+
+void initialize_pins();
