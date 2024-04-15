@@ -31,4 +31,12 @@
 #define sda_ext 28
 #define scl_ext 29
 
-void initialize_pins();
+/**
+ * @brief initialize gpio pins using gpio_init
+ */
+void initialize_gpios();
+
+/**
+ * @brief set functions of all gpio pins
+ */
+void set_gpio_funcs();

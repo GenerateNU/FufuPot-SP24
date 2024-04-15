@@ -1,6 +1,6 @@
 #include "pin_definitions.h"
 
-void initialize_pins() {
+void initialize_gpios() {
     gpio_init(gpio_0);
     gpio_init(motor_en);
     gpio_init(piezo_en);
@@ -23,15 +23,22 @@ void initialize_pins() {
     gpio_init(gpio_19);
     gpio_init(heat_pwm);
     gpio_init(pump_en);
-    gpio_set_dir(pump_en, 1);
     gpio_init(watersense_2_read);
-    gpio_set_dir(watersense_2_read, 0);
     gpio_init(watersense_1_read);
-    gpio_set_dir(watersense_1_read, 0);
     gpio_init(gpio_24);
     gpio_init(gpio_25);
     gpio_init(gpio_26);
     gpio_init(gpio_27);
     gpio_init(sda_ext);
     gpio_init(scl_ext);
+}
+
+void set_gpio_funcs() {
+    //water pins
+    gpio_set_dir(pump_en, 1);
+    gpio_set_dir(watersense_2_read, 0);
+    gpio_set_dir(watersense_1_read, 0);
+
+    //heating pins
+    gpio_set_function(heat_pwm, GPIO_FUNC_PWM);
 }
