@@ -28,6 +28,7 @@ void cook(cooking_type firmness) {
         pump_time_3 = 120;
         motor_time_1 = 600;
         motor_time_2 = 300;
+        motor_time_3 = 300;
         break;
 
     default:
@@ -36,6 +37,7 @@ void cook(cooking_type firmness) {
         pump_time_3 = 100;
         motor_time_1 = 600;
         motor_time_2 = 300;
+        motor_time_3 = 300;
         break;
     }
 
@@ -102,16 +104,4 @@ void cook(cooking_type firmness) {
 
     //turn heat off at the end
     heat_on(false);
-}
-
-void soft_cook() {
-    
-}
-
-void reg_cook() {
-
-}
-
-void firm_cook() {
-    
 }

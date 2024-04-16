@@ -63,18 +63,3 @@ enum cooking_type{soft, regular, firm};
  * @param firmness dictates which cycle to use based on the enumeration given
 */
 void cook(cooking_type firmness);
-
-/**
- * @brief cooks the fufu on the soft cycle using constants defined above
- **/
-void soft_cook();
-
-/**
- * @brief cooks the fufu on the regular cycle using constants defined above
- **/
-void reg_cook();
-
-/**
- * @brief cooks the fufu on the hard cycle using constants defined above
- **/
-void firm_cook();
