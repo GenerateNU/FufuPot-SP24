@@ -42,6 +42,10 @@ void set_gpio_funcs() {
     gpio_set_dir(watersense_2_read, 0);
     gpio_set_dir(watersense_1_read, 0);
 
+    //Piezo Buzzer
+    gpio_set_dir(piezo_en, 1);
+    gpio_put(piezo_en, 0);
+
     //LED
     gpio_set_dir(hot_led_pos, 1);
     gpio_put(hot_led_pos, 0);
@@ -58,6 +62,12 @@ void set_gpio_funcs() {
 
     //heating pins
     gpio_set_function(heat_pwm, GPIO_FUNC_PWM);
+
+    //TO-DO -> SET FUNCTIONS FOR DVI PINS
+
+    //i2c pins
+    gpio_set_function(sda_ext, GPIO_FUNC_I2C);
+    gpio_set_function(scl_ext, GPIO_FUNC_I2C);
 }
 
 uint32_t pwm_set_freq_duty(int slice_num, int chan, uint32_t f, int d) {
