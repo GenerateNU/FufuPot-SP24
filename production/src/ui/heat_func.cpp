@@ -1,5 +1,5 @@
 #include "heat_func.h"
-
+/*
 float convert_temp(uint8_t pin_sda, uint8_t pin_scl) {
 
     // This is placeholder code
@@ -55,7 +55,7 @@ uint16_t check_temp(float temp){
         return level;
     }
 }
-
+*/
 void heat_on(bool enabled){
     // Find out which PWM slice is connected to GPIO 0 (it's slice 0)
     uint8_t slice = pwm_gpio_to_slice_num(heat_pwm);
