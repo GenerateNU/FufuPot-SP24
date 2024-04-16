@@ -4,7 +4,7 @@
 
 void motor_on(bool enabled) {
     //enable digital pin to motor 
-    gpio_put(motor_en, 1);
+    gpio_put(motor_en, enabled);
     //motor direction should already be set but just in case
     gpio_put(motor_dir, 0);
 

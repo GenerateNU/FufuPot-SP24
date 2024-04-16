@@ -38,12 +38,31 @@
     #define WATER_PUMP
     #include "water_pump.h"
 #endif
+#ifndef MOTOR
+    #define MOTOR
+    #include "motor.h"
+#endif
+
+#ifndef WINDOWS_H
+    #define WINDOWS_H
+    #include <Windows.h>
+#endif
 
 #define soft_cook_time 6969;
 #define reg_cook_time 69420;
 #define firm_cook_time 420420;
 
+/**
+ * Enumeration for which cooking cycle to do
+*/
+enum cooking_type{soft, regular, firm};
 
+/**
+ * @brief cooks the fufu on the selected cycle
+ * 
+ * @param firmness dictates which cycle to use based on the enumeration given
+*/
+void cook(cooking_type firmness);
 
 /**
  * @brief cooks the fufu on the soft cycle using constants defined above

@@ -56,7 +56,6 @@ uint16_t check_temp(float temp){
     }
 }
 
-
 void heat_on(bool enabled){
     // Find out which PWM slice is connected to GPIO 0 (it's slice 0)
     uint8_t slice = pwm_gpio_to_slice_num(heat_pwm);

@@ -32,11 +32,8 @@ bool is_water_full();
 bool is_water_not_empty();
 
 /**
- * @brief sets pump pin to high, turning the pump on
+ * @brief sets pump pin to high/low, turning the pump on/off
+ * 
+ * @param enabled when true, turns pump on, when false, turns pump off
  */
-void start_pumping();
-
-/**
- * @brief sets pump pin to high, turning the pump off
- */
-void stop_pumping();
+void pump_water(bool enabled);
