@@ -37,14 +37,19 @@ void initialize_gpios() {
 void set_gpio_funcs() {
     //water pins
     gpio_set_dir(pump_en, 1);
+    //write pump to low just in case
+    gpio_put(pump_en, 0);
     gpio_set_dir(watersense_2_read, 0);
     gpio_set_dir(watersense_1_read, 0);
 
     //LED
     gpio_set_dir(hot_led_pos, 1);
+    gpio_put(hot_led_pos, 0);
 
     //motor 
     gpio_set_dir(motor_en, 1);
+    //write motor to low just in case
+    gpio_put(motor_en, 0);
     gpio_set_dir(motor_dir, 1);
     //Sets motor to counterclockwise
     gpio_put(motor_dir, 0);
