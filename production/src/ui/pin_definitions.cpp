@@ -1,6 +1,3 @@
-
-
-
 #include "pin_definitions.h"
 
 
@@ -45,6 +42,13 @@ void set_gpio_funcs() {
 
     //LED
     gpio_set_dir(hot_led_pos, 1);
+
+    //motor 
+    gpio_set_dir(motor_en, 1);
+    gpio_set_dir(motor_dir, 1);
+    //Sets motor to counterclockwise
+    gpio_put(motor_dir, 0);
+    gpio_set_function(motor_pwm, GPIO_FUNC_PWM);
 
 
     //heating pins

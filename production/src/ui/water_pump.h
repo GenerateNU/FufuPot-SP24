@@ -1,11 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <rp2_common/hardware_gpio/include/hardware/gpio.h>
-#include <hardware/i2c.h>
-#include <hardware/pwm.h>
-#include <pico/binary_info.h>
-
-#include "pin_definitions.h"
+#ifndef STDIO_H
+    #define STDIO_H
+    #include <stdio.h>
+#endif
+#ifndef STDLIB_H
+    #define STDLIB_H
+    #include <stdlib.h>
+#endif
+#ifndef PICO_STDLIB_H
+    #define PICO_STDLIB_H
+    #include <pico/stdlib.h>
+#endif
+#ifndef HARDWARE_GPIO_H
+    #define HARDWARE_GPIO_H
+    #include <rp2_common/hardware_gpio/include/hardware/gpio.h>
+#endif
+#ifndef PIN_DEF
+    #define PIN_DEF
+    #include "pin_definitions.h"
+#endif
 
 /**
  * @returns true if the sensor detecting full water level is reporting high, 

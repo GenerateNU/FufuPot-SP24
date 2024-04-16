@@ -1,25 +1,43 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <pico/stdlib.h>
-#include <hardware/gpio.h>
-#include <hardware/i2c.h>
-#include <hardware/pwm.h>
-#include <pico/binary_info.h>
+#ifndef STDIO_H
+    #define STDIO_H
+    #include <stdio.h>
+#endif
+#ifndef STDLIB_H
+    #define STDLIB_H
+    #include <stdlib.h>
+#endif
+#ifndef PICO_STDLIB_H
+    #define PICO_STDLIB_H
+    #include <pico/stdlib.h>
+#endif
+#ifndef HARDWARE_GPIO_H
+    #define HARDWARE_GPIO_H
+    #include <rp2_common/hardware_gpio/include/hardware/gpio.h>
+#endif
+#ifndef HARDWARE_PWM_H
+    #define HARDWARE_PWM_H
+    #include <hardware/pwm.h>
+#endif
+#ifndef HARDWARE_I2C_H
+    #define HARDWARE_I2C_H
+    #include <hardware/i2c.h>
+#endif
+#ifndef PICO_BINARY_H
+    #define PICO_BINARY_H
+    #include <pico/binary_info.h>
+#endif
 
-#include "pin_definitions.h"
+#ifndef PIN_DEF
+    #define PIN_DEF
+    #include "pin_definitions.h"
+#endif
 
 #define i2c_bus 0
-#define sda_pin 28
-#define scl_pin 29
-#define pwm_pin 31
-#define led_pin 29
-#define d_cycle 0.5
-#define pwm_duty_heat 50 
-#define pwm_freq 10000
+#define pwm_duty_heat 58
 
 //GLOBAL TESTING VARIABLES
 #define heat_pwm_freq 2500
-#define motor_pwm_freq 250 //3kHz or 4kHz is "100% Speed"
+
 
 //i2c bus address
 #define ir_addr 0x36
