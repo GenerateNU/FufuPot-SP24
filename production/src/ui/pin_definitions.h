@@ -13,9 +13,13 @@
 
 //unused gpio pin, pin 0 on MCU
 #define gpio_0 0
+//digital gpio for enabling the motor (HIGH = motor can spin), pin 1 on the MCU
 #define motor_en 1
+//digital gpio for enabling the buzzer, pin 2 on the MCU
 #define piezo_en 2
+//digital gpio for the direction of the motor (HIGH = cw, LOW = ccw), pin 3 on the MCU
 #define motor_dir 3
+//pin for spinning the motor, sends a PWM signal, pin 4 on the MCU, PWM2 A on RP2040
 #define motor_pwm 4
 //unused gpio pin, pin 5 on MCU
 #define gpio_4 5
@@ -46,10 +50,13 @@
 #define hot_led_pos 18
 //unused gpio pin, pin 19 on MCU
 #define gpio_19 19
-//sends pwm signal 
+//pin for power the heating circuit, sends a PWM signal, pin 20 on the MCU, PWM2 A on RP2040
 #define heat_pwm 20
+//digital gpio for enabling the pump (HIGH = water flowing), pin 21 on the MCU
 #define pump_en 21
+//digital input from the empty water sensor (HIGH = water present), pin 22 on the MCU
 #define watersense_2_read 22
+//digital input from the full water sensor (HIGH = water present), pin 22 on the MCU
 #define watersense_1_read  23
 //unused gpio pin, pin 24 on MCU
 #define gpio_24 24

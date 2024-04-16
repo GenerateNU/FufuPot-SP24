@@ -32,7 +32,9 @@
     #include "pin_definitions.h"
 #endif
 
+//should be the number of the i2c bus being used, not implemented at the moment
 #define i2c_bus 0
+//duty cycle of the pwm for the heat, cannot exceed 65
 #define pwm_duty_heat 58
 
 //GLOBAL TESTING VARIABLES
@@ -44,11 +46,11 @@
 
 //hardware registers (none yet):
 
-
-
+/**
 float convert_temp(uint8_t pin_sda, uint8_t pin_scl);
 
 uint16_t check_temp(float temp);
+*/
 
 /*
  * @brief turns on/off the heat pwm signal 
