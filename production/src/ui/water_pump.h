@@ -7,8 +7,6 @@
 
 #include "pin_definitions.h"
 
-//
-
 /**
  * @returns true if the sensor detecting full water level is reporting high, 
  * AKA true if water is past the full point

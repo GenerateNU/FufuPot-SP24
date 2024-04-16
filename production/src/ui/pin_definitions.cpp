@@ -1,4 +1,8 @@
+
+
+
 #include "pin_definitions.h"
+
 
 void initialize_gpios() {
     gpio_init(gpio_0);
@@ -39,6 +43,23 @@ void set_gpio_funcs() {
     gpio_set_dir(watersense_2_read, 0);
     gpio_set_dir(watersense_1_read, 0);
 
+    //LED
+    gpio_set_dir(hot_led_pos, 1);
+
+
     //heating pins
     gpio_set_function(heat_pwm, GPIO_FUNC_PWM);
+}
+
+uint32_t pwm_set_freq_duty(int slice_num, int chan, uint32_t f, int d) {
+    uint32_t clock = 12000000;
+    uint32_t divider16 = clock / f / 4096 + (clock % (f * 4096) != 0);
+    if (divider16 / 16 == 0) {
+        divider16 = 16;
+    }
+    uint32_t wrap = clock * 16 / divider16 / f - 1;
+    pwm_set_clkdiv_int_frac(slice_num, divider16/16, divider16 & 0xF);
+    pwm_set_wrap(slice_num, wrap);
+    pwm_set_chan_level(slice_num, chan, wrap * d / 100);
+    return wrap;
 }
