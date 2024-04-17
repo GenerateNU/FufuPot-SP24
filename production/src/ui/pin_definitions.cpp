@@ -2,7 +2,7 @@
 
 
 void initialize_gpios() {
-    gpio_init(gpio_0);
+    //gpio_init(gpio_0);
     gpio_init(motor_en);
     gpio_init(piezo_en);
     gpio_init(motor_dir);

@@ -37,3 +37,4 @@ bool is_water_not_empty();
  * @param enabled when true, turns pump on, when false, turns pump off
  */
 void pump_water(bool enabled);
+
