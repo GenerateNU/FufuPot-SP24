@@ -11,16 +11,16 @@
     #include <cstdint>
 #endif
 
-//unused gpio pin, pin 0 on MCU
-#define gpio_0 0
+//unused gpio pin, pin 0 on MCU, commented out due to switching the motor pin
+//#define gpio_0 0
 //digital gpio for enabling the motor (HIGH = motor can spin), pin 1 on the MCU
 #define motor_en 1
 //digital gpio for enabling the buzzer, pin 2 on the MCU
 #define piezo_en 2
 //digital gpio for the direction of the motor (HIGH = cw, LOW = ccw), pin 3 on the MCU
 #define motor_dir 3
-//pin for spinning the motor, sends a PWM signal, pin 4 on the MCU, PWM2 A on RP2040
-#define motor_pwm 4
+//pin for spinning the motor, sends a PWM signal, pin 0 on the MCU, PWM0 A on RP2040
+#define motor_pwm 0
 //unused gpio pin, pin 5 on MCU
 #define gpio_4 5
 //unused gpio pin, pin 6 on MCU
