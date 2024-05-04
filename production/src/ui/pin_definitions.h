@@ -1,15 +1,19 @@
 #ifndef HARDWARE_GPIO_H
     #define HARDWARE_GPIO_H
-    #include <rp2_common/hardware_gpio/include/hardware/gpio.h>
+    #include <hardware/gpio.h>
 #endif
 #ifndef HARDWARE_PWM_H
     #define HARDWARE_PWM_H
     #include <hardware/pwm.h>
 #endif
-#ifndef CSTDINT_H
-    #define CSTDINT_H   
-    #include <cstdint>
+#ifndef ARDUINO_H
+    #define ARDUINO_H
+    #include <Arduino.h>
 #endif
+// #ifndef CSTDINT_H
+//     #define CSTDINT_H   
+//     #include <cstdint>
+// #endif
 
 //unused gpio pin, pin 0 on MCU, commented out due to switching the motor pin
 //#define gpio_0 0

@@ -12,7 +12,7 @@
 #endif
 #ifndef HARDWARE_GPIO_H
     #define HARDWARE_GPIO_H
-    #include <rp2_common/hardware_gpio/include/hardware/gpio.h>
+    #include <hardware/gpio.h>
 #endif
 #ifndef HARDWARE_PWM_H
     #define HARDWARE_PWM_H
@@ -43,23 +43,26 @@
     #include "motor.h"
 #endif
 
-#ifndef WINDOWS_H
-    #define WINDOWS_H
-    #include <Windows.h>
-#endif
+// #ifndef WINDOWS_H
+//     #define WINDOWS_H
+//     #include <Windows.h>
+// #endif
 
-#define soft_cook_time 6969;
-#define reg_cook_time 69420;
-#define firm_cook_time 420420;
+#define soft_cook_time 60;
+#define reg_cook_time 60;
+#define firm_cook_time 60;
 
 /**
  * Enumeration for which cooking cycle to do
 */
-enum cooking_type{soft, regular, firm};
-
+enum cooking_type{
+  soft, 
+  regular, 
+  firm
+  };
 /**
  * @brief cooks the fufu on the selected cycle
  * 
  * @param firmness dictates which cycle to use based on the enumeration given
 */
-void cook(cooking_type firmness);
+void cook( enum cooking_type );

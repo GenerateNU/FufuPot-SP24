@@ -1,15 +1,17 @@
 #include "fufu_cook.h"
 
-void cook(cooking_type firmness) {
+
+
+void cook(enum cooking_type firmness) {
     /**
      *  define cooking variable and set times for regular cycle as default, times are in seconds
     */
-    uint8_t pump_time_1;
-    uint8_t pump_time_2;
-    uint8_t pump_time_3;
-    uint8_t motor_time_1;
-    uint8_t motor_time_2;
-    uint8_t motor_time_3;
+    uint16_t pump_time_1;
+    uint16_t pump_time_2;
+    uint16_t pump_time_3;
+    uint16_t motor_time_1;
+    uint16_t motor_time_2;
+    uint16_t motor_time_3;
 
     //sets timing variables for each case, default case is for regular firmness
     switch (firmness)
@@ -48,7 +50,7 @@ void cook(cooking_type firmness) {
             pump_water(false);
             return;
         }
-        Sleep(1000);
+        delay(1000);
     }
     //pump off
     pump_water(false);
@@ -57,7 +59,7 @@ void cook(cooking_type firmness) {
     heat_on(true);
     motor_on(true);
     for (int i = 0; i < motor_time_1; i++) {
-        Sleep(1000);
+        delay(1000);
     }
 
     //motor off, leave heat on for next step
@@ -70,14 +72,14 @@ void cook(cooking_type firmness) {
             pump_water(false);
             return;
         }
-        Sleep(1000);
+        delay(1000);
     }
     pump_water(false);
 
     //second motor step
     motor_on(true);
     for (int i = 0; i < motor_time_2; i++) {
-        Sleep(1000);
+        delay(1000);
     }
     //turn off motor but leave heat on
     motor_on(false);
@@ -89,7 +91,7 @@ void cook(cooking_type firmness) {
             pump_water(false);
             return;
         }
-        Sleep(1000);
+        delay(1000);
     }
     //turn off pump, heat still on
     pump_water(false);
@@ -97,7 +99,7 @@ void cook(cooking_type firmness) {
     //third motor step
     motor_on(true);
     for (int i = 0; i < motor_time_3; i++) {
-        Sleep(1000);
+        delay(1000);
     }
     //turn off motor but leave heat on
     motor_on(false);

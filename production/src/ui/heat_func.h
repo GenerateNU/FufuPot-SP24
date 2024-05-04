@@ -12,7 +12,7 @@
 #endif
 #ifndef HARDWARE_GPIO_H
     #define HARDWARE_GPIO_H
-    #include <rp2_common/hardware_gpio/include/hardware/gpio.h>
+    #include <hardware/gpio.h>
 #endif
 #ifndef HARDWARE_PWM_H
     #define HARDWARE_PWM_H
